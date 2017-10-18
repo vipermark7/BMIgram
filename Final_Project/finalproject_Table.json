@@ -1,56 +1,571 @@
-{"type":"Topology","arcs":[],"objects":{"finalproject_Table":
-    {"type":"GeometryCollection","geometries":[
-        {"type":null,"properties":{"state":"Alabama","2016obesrate":"35.70%","2015obesrate":"35.60%","2014obesrate":"33.50%","2013obesrate":"32.40%","2012obesrate":"33.00%"}},
-    {"type":null,"properties":{"state":"Alaska","2016obesrate":"31.40%","2015obesrate":"29.80%","2014obesrate":"29.70%","2013obesrate":"28.40%","2012obesrate":"25.70%"}},
-    {"type":null,"properties":{"state":"Arizona","2016obesrate":"29.00%","2015obesrate":"28.40%","2014obesrate":"28.90%","2013obesrate":"26.80%","2012obesrate":"26.00%"}},
-    {"type":null,"properties":{"state":"Arkansas","2016obesrate":"35.70%","2015obesrate":"34.50%","2014obesrate":"35.90%","2013obesrate":"34.60%","2012obesrate":"34.50%"}},
-    {"type":null,"properties":{"state":"California","2016obesrate":"25.00%","2015obesrate":"24.20%","2014obesrate":"24.70%","2013obesrate":"24.10%","2012obesrate":"25.00%"}},
-    {"type":null,"properties":{"state":"Colorado","2016obesrate":"22.30%","2015obesrate":"20.20%","2014obesrate":"21.30%","2013obesrate":"21.30%","2012obesrate":"20.50%"}},
-    {"type":null,"properties":{"state":"Connectlcut","2016obesrate":"26.00%","2015obesrate":"25.30%","2014obesrate":"26.30%","2013obesrate":"25.00%","2012obesrate":"25.60%"}},
-    {"type":null,"properties":{"state":"Delaware","2016obesrate":"30.70%","2015obesrate":"29.70%","2014obesrate":"30.70%","2013obesrate":"31.10%","2012obesrate":"26.90%"}},
-    {"type":null,"properties":{"state":"District of Columbia","2016obesrate":"22.60%","2015obesrate":"22.10%","2014obesrate":"21.70%","2013obesrate":"22.90%","2012obesrate":"21.90%"}},
-    {"type":null,"properties":{"state":"Florida","2016obesrate":"27.40%","2015obesrate":"26.80%","2014obesrate":"26.20%","2013obesrate":"26.40%","2012obesrate":"25.20%"}},
-    {"type":null,"properties":{"state":"Georgia","2016obesrate":"31.40%","2015obesrate":"30.70%","2014obesrate":"30.50%","2013obesrate":"30.30%","2012obesrate":"29.10%"}},
-    {"type":null,"properties":{"state":"Hawaii","2016obesrate":"23.80%","2015obesrate":"22.70%","2014obesrate":"22.10%","2013obesrate":"21.80%","2012obesrate":"23.60%"}},
-    {"type":null,"properties":{"state":"Idaho ","2016obesrate":"27.40%","2015obesrate":"28.60%","2014obesrate":"28.90%","2013obesrate":"29.60%","2012obesrate":"26.80%"}},
-    {"type":null,"properties":{"state":"Illinois","2016obesrate":"31.60%","2015obesrate":"30.80%","2014obesrate":"29.30%","2013obesrate":"29.40%","2012obesrate":"28.10%"}},
-    {"type":null,"properties":{"state":"Indiana","2016obesrate":"32.50%","2015obesrate":"32.80%","2014obesrate":"32.70%","2013obesrate":"31.80%","2012obesrate":"31.40%"}},
-    {"type":null,"properties":{"state":"Iowa","2016obesrate":"32.00%","2015obesrate":"32.10%","2014obesrate":"30.90%","2013obesrate":"31.30%","2012obesrate":"30.40%"}},
-    {"type":null,"properties":{"state":"Kansas","2016obesrate":"31.20%","2015obesrate":"34.20%","2014obesrate":"31.30%","2013obesrate":"30.00%","2012obesrate":"29.90%"}},
-    {"type":null,"properties":{"state":"Kentucky","2016obesrate":"34.20%","2015obesrate":"34.60%","2014obesrate":"31.60%","2013obesrate":"33.20%","2012obesrate":"31.30%"}},
-    {"type":null,"properties":{"state":"Louisiana","2016obesrate":"35.50%","2015obesrate":"36.20%","2014obesrate":"34.90%","2013obesrate":"33.10%","2012obesrate":"34.70%"}},
-    {"type":null,"properties":{"state":"Maine","2016obesrate":"29.90%","2015obesrate":"30.00%","2014obesrate":"28.20%","2013obesrate":"28.90%","2012obesrate":"28.40%"}},
-    {"type":null,"properties":{"state":"Maryland","2016obesrate":"29.90%","2015obesrate":"28.90%","2014obesrate":"29.60%","2013obesrate":"28.30%","2012obesrate":"27.60%"}},
-    {"type":null,"properties":{"state":"Massachusetts","2016obesrate":"23.60%","2015obesrate":"24.30%","2014obesrate":"23.30%","2013obesrate":"23.60%","2012obesrate":"22.90%"}},
-    {"type":null,"properties":{"state":"Michigan","2016obesrate":"32.50%","2015obesrate":"31.20%","2014obesrate":"30.70%","2013obesrate":"31.50%","2012obesrate":"31.10%"}},
-    {"type":null,"properties":{"state":"Minnesota","2016obesrate":"27.80%","2015obesrate":"26.10%","2014obesrate":"27.60%","2013obesrate":"25.50%","2012obesrate":"25.70%"}},
-    {"type":null,"properties":{"state":"Mississippi","2016obesrate":"37.30%","2015obesrate":"35.60%","2014obesrate":"35.50%","2013obesrate":"35.10%","2012obesrate":"34.60%"}},
-    {"type":null,"properties":{"state":"Missouri","2016obesrate":"31.70%","2015obesrate":"32.40%","2014obesrate":"30.20%","2013obesrate":"30.40%","2012obesrate":"29.60%"}},
-    {"type":null,"properties":{"state":"Montana","2016obesrate":"25.50%","2015obesrate":"23.60%","2014obesrate":"26.40%","2013obesrate":"24.60%","2012obesrate":"24.30%"}},
-    {"type":null,"properties":{"state":"Nebraska","2016obesrate":"32.00%","2015obesrate":"31.40%","2014obesrate":"30.20%","2013obesrate":"29.60%","2012obesrate":"28.60%"}},
-    {"type":null,"properties":{"state":"Nevada","2016obesrate":"25.80%","2015obesrate":"26.70%","2014obesrate":"27.70%","2013obesrate":"26.20%","2012obesrate":"26.20%"}},
-    {"type":null,"properties":{"state":"New Hamphire","2016obesrate":"26.60%","2015obesrate":"26.30%","2014obesrate":"27.40%","2013obesrate":"26.70%","2012obesrate":"27.30%"}},
-    {"type":null,"properties":{"state":"New Jersey","2016obesrate":"27.40%","2015obesrate":"25.60%","2014obesrate":"26.90%","2013obesrate":"26.30%","2012obesrate":"24.60%"}},
-    {"type":null,"properties":{"state":"New Mexico","2016obesrate":"28.30%","2015obesrate":"28.80%","2014obesrate":"28.40%","2013obesrate":"26.40%","2012obesrate":"27.10%"}},
-    {"type":null,"properties":{"state":"New York","2016obesrate":"25.50%","2015obesrate":"25.00%","2014obesrate":"27.00%","2013obesrate":"25.40%","2012obesrate":"23.60%"}},
-    {"type":null,"properties":{"state":"North Carolina","2016obesrate":"31.80%","2015obesrate":"31.00%","2014obesrate":"29.70%","2013obesrate":"29.40%","2012obesrate":"29.60%"}},
-    {"type":null,"properties":{"state":"North Dakota","2016obesrate":"31.90%","2015obesrate":"31.00%","2014obesrate":"32.20%","2013obesrate":"31.00%","2012obesrate":"29.70%"}},
-    {"type":null,"properties":{"state":"Ohio","2016obesrate":"31.50%","2015obesrate":"29.80%","2014obesrate":"32.60%","2013obesrate":"30.40%","2012obesrate":"30.10%"}},
-    {"type":null,"properties":{"state":"Oklahoma","2016obesrate":"32.80%","2015obesrate":"33.90%","2014obesrate":"33.00%","2013obesrate":"32.50%","2012obesrate":"32.20%"}},
-    {"type":null,"properties":{"state":"Oregon ","2016obesrate":"28.70%","2015obesrate":"30.10%","2014obesrate":"27.90%","2013obesrate":"26.50%","2012obesrate":"27.30%"}},
-    {"type":null,"properties":{"state":"Pennsylvania","2016obesrate":"30.30%","2015obesrate":"30.00%","2014obesrate":"30.20%","2013obesrate":"30.00%","2012obesrate":"29.10%"}},
-    {"type":null,"properties":{"state":"Rhode Island","2016obesrate":"26.60%","2015obesrate":"26.00%","2014obesrate":"27.00%","2013obesrate":"27.30%","2012obesrate":"25.70%"}},
-    {"type":null,"properties":{"state":"South Carolina","2016obesrate":"32.30%","2015obesrate":"31.70%","2014obesrate":"32.10%","2013obesrate":"31.70%","2012obesrate":"31.60%"}},
-    {"type":null,"properties":{"state":"South Dakota","2016obesrate":"29.60%","2015obesrate":"30.40%","2014obesrate":"29.80%","2013obesrate":"29.90%","2012obesrate":"28.10%"}},
-    {"type":null,"properties":{"state":"Tennessee","2016obesrate":"34.80%","2015obesrate":"33.80%","2014obesrate":"31.20%","2013obesrate":"33.70%","2012obesrate":"31.10%"}},
-    {"type":null,"properties":{"state":"Texas","2016obesrate":"33.70%","2015obesrate":"32.40%","2014obesrate":"31.90%","2013obesrate":"30.90%","2012obesrate":"29.20%"}},
-    {"type":null,"properties":{"state":"Utah","2016obesrate":"25.40%","2015obesrate":"24.50%","2014obesrate":"25.70%","2013obesrate":"24.10%","2012obesrate":"24.30%"}},
-    {"type":null,"properties":{"state":"Vermont","2016obesrate":"27.10%","2015obesrate":"25.10%","2014obesrate":"24.80%","2013obesrate":"24.70%","2012obesrate":"23.70%"}},
-    {"type":null,"properties":{"state":"Virginia","2016obesrate":"29.00%","2015obesrate":"29.20%","2014obesrate":"28.50%","2013obesrate":"27.20%","2012obesrate":"27.40%"}},
-    {"type":null,"properties":{"state":"Washington","2016obesrate":"28.60%","2015obesrate":"26.40%","2014obesrate":"27.30%","2013obesrate":"27.20%","2012obesrate":"26.80%"}},
-    {"type":null,"properties":{"state":"West Virginia","2016obesrate":"37.70%","2015obesrate":"35.60%","2014obesrate":"35.70%","2013obesrate":"35.10%","2012obesrate":"33.80%"}},
-    {"type":null,"properties":{"state":"Wisconsin","2016obesrate":"30.70%","2015obesrate":"30.70%","2014obesrate":"31.20%","2013obesrate":"29.80%","2012obesrate":"29.70%"}},
-    {"type":null,"properties":{"state":"Wyoming","2016obesrate":"27.70%","2015obesrate":"29.00%","2014obesrate":"29.50%","2013obesrate":"27.80%","2012obesrate":"24.60%"}}
-    ]
-  }}
+{
+    "type": "Topology",
+    "arcs": [],
+    "objects": {
+        "finalproject_Table": {
+            "type": "GeometryCollection",
+            "geometries": [{
+                    "type": null,
+                    "properties": {
+                        "state": "Alabama",
+                        "2016obesrate": "35.70%",
+                        "2015obesrate": "35.60%",
+                        "2014obesrate": "33.50%",
+                        "2013obesrate": "32.40%",
+                        "2012obesrate": "33.00%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Alaska",
+                        "2016obesrate": "31.40%",
+                        "2015obesrate": "29.80%",
+                        "2014obesrate": "29.70%",
+                        "2013obesrate": "28.40%",
+                        "2012obesrate": "25.70%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Arizona",
+                        "2016obesrate": "29.00%",
+                        "2015obesrate": "28.40%",
+                        "2014obesrate": "28.90%",
+                        "2013obesrate": "26.80%",
+                        "2012obesrate": "26.00%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Arkansas",
+                        "2016obesrate": "35.70%",
+                        "2015obesrate": "34.50%",
+                        "2014obesrate": "35.90%",
+                        "2013obesrate": "34.60%",
+                        "2012obesrate": "34.50%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "California",
+                        "2016obesrate": "25.00%",
+                        "2015obesrate": "24.20%",
+                        "2014obesrate": "24.70%",
+                        "2013obesrate": "24.10%",
+                        "2012obesrate": "25.00%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Colorado",
+                        "2016obesrate": "22.30%",
+                        "2015obesrate": "20.20%",
+                        "2014obesrate": "21.30%",
+                        "2013obesrate": "21.30%",
+                        "2012obesrate": "20.50%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Connectlcut",
+                        "2016obesrate": "26.00%",
+                        "2015obesrate": "25.30%",
+                        "2014obesrate": "26.30%",
+                        "2013obesrate": "25.00%",
+                        "2012obesrate": "25.60%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Delaware",
+                        "2016obesrate": "30.70%",
+                        "2015obesrate": "29.70%",
+                        "2014obesrate": "30.70%",
+                        "2013obesrate": "31.10%",
+                        "2012obesrate": "26.90%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "District of Columbia",
+                        "2016obesrate": "22.60%",
+                        "2015obesrate": "22.10%",
+                        "2014obesrate": "21.70%",
+                        "2013obesrate": "22.90%",
+                        "2012obesrate": "21.90%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Florida",
+                        "2016obesrate": "27.40%",
+                        "2015obesrate": "26.80%",
+                        "2014obesrate": "26.20%",
+                        "2013obesrate": "26.40%",
+                        "2012obesrate": "25.20%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Georgia",
+                        "2016obesrate": "31.40%",
+                        "2015obesrate": "30.70%",
+                        "2014obesrate": "30.50%",
+                        "2013obesrate": "30.30%",
+                        "2012obesrate": "29.10%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Hawaii",
+                        "2016obesrate": "23.80%",
+                        "2015obesrate": "22.70%",
+                        "2014obesrate": "22.10%",
+                        "2013obesrate": "21.80%",
+                        "2012obesrate": "23.60%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Idaho ",
+                        "2016obesrate": "27.40%",
+                        "2015obesrate": "28.60%",
+                        "2014obesrate": "28.90%",
+                        "2013obesrate": "29.60%",
+                        "2012obesrate": "26.80%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Illinois",
+                        "2016obesrate": "31.60%",
+                        "2015obesrate": "30.80%",
+                        "2014obesrate": "29.30%",
+                        "2013obesrate": "29.40%",
+                        "2012obesrate": "28.10%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Indiana",
+                        "2016obesrate": "32.50%",
+                        "2015obesrate": "32.80%",
+                        "2014obesrate": "32.70%",
+                        "2013obesrate": "31.80%",
+                        "2012obesrate": "31.40%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Iowa",
+                        "2016obesrate": "32.00%",
+                        "2015obesrate": "32.10%",
+                        "2014obesrate": "30.90%",
+                        "2013obesrate": "31.30%",
+                        "2012obesrate": "30.40%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Kansas",
+                        "2016obesrate": "31.20%",
+                        "2015obesrate": "34.20%",
+                        "2014obesrate": "31.30%",
+                        "2013obesrate": "30.00%",
+                        "2012obesrate": "29.90%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Kentucky",
+                        "2016obesrate": "34.20%",
+                        "2015obesrate": "34.60%",
+                        "2014obesrate": "31.60%",
+                        "2013obesrate": "33.20%",
+                        "2012obesrate": "31.30%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Louisiana",
+                        "2016obesrate": "35.50%",
+                        "2015obesrate": "36.20%",
+                        "2014obesrate": "34.90%",
+                        "2013obesrate": "33.10%",
+                        "2012obesrate": "34.70%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Maine",
+                        "2016obesrate": "29.90%",
+                        "2015obesrate": "30.00%",
+                        "2014obesrate": "28.20%",
+                        "2013obesrate": "28.90%",
+                        "2012obesrate": "28.40%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Maryland",
+                        "2016obesrate": "29.90%",
+                        "2015obesrate": "28.90%",
+                        "2014obesrate": "29.60%",
+                        "2013obesrate": "28.30%",
+                        "2012obesrate": "27.60%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Massachusetts",
+                        "2016obesrate": "23.60%",
+                        "2015obesrate": "24.30%",
+                        "2014obesrate": "23.30%",
+                        "2013obesrate": "23.60%",
+                        "2012obesrate": "22.90%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Michigan",
+                        "2016obesrate": "32.50%",
+                        "2015obesrate": "31.20%",
+                        "2014obesrate": "30.70%",
+                        "2013obesrate": "31.50%",
+                        "2012obesrate": "31.10%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Minnesota",
+                        "2016obesrate": "27.80%",
+                        "2015obesrate": "26.10%",
+                        "2014obesrate": "27.60%",
+                        "2013obesrate": "25.50%",
+                        "2012obesrate": "25.70%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Mississippi",
+                        "2016obesrate": "37.30%",
+                        "2015obesrate": "35.60%",
+                        "2014obesrate": "35.50%",
+                        "2013obesrate": "35.10%",
+                        "2012obesrate": "34.60%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Missouri",
+                        "2016obesrate": "31.70%",
+                        "2015obesrate": "32.40%",
+                        "2014obesrate": "30.20%",
+                        "2013obesrate": "30.40%",
+                        "2012obesrate": "29.60%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Montana",
+                        "2016obesrate": "25.50%",
+                        "2015obesrate": "23.60%",
+                        "2014obesrate": "26.40%",
+                        "2013obesrate": "24.60%",
+                        "2012obesrate": "24.30%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Nebraska",
+                        "2016obesrate": "32.00%",
+                        "2015obesrate": "31.40%",
+                        "2014obesrate": "30.20%",
+                        "2013obesrate": "29.60%",
+                        "2012obesrate": "28.60%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Nevada",
+                        "2016obesrate": "25.80%",
+                        "2015obesrate": "26.70%",
+                        "2014obesrate": "27.70%",
+                        "2013obesrate": "26.20%",
+                        "2012obesrate": "26.20%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "New Hamphire",
+                        "2016obesrate": "26.60%",
+                        "2015obesrate": "26.30%",
+                        "2014obesrate": "27.40%",
+                        "2013obesrate": "26.70%",
+                        "2012obesrate": "27.30%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "New Jersey",
+                        "2016obesrate": "27.40%",
+                        "2015obesrate": "25.60%",
+                        "2014obesrate": "26.90%",
+                        "2013obesrate": "26.30%",
+                        "2012obesrate": "24.60%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "New Mexico",
+                        "2016obesrate": "28.30%",
+                        "2015obesrate": "28.80%",
+                        "2014obesrate": "28.40%",
+                        "2013obesrate": "26.40%",
+                        "2012obesrate": "27.10%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "New York",
+                        "2016obesrate": "25.50%",
+                        "2015obesrate": "25.00%",
+                        "2014obesrate": "27.00%",
+                        "2013obesrate": "25.40%",
+                        "2012obesrate": "23.60%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "North Carolina",
+                        "2016obesrate": "31.80%",
+                        "2015obesrate": "31.00%",
+                        "2014obesrate": "29.70%",
+                        "2013obesrate": "29.40%",
+                        "2012obesrate": "29.60%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "North Dakota",
+                        "2016obesrate": "31.90%",
+                        "2015obesrate": "31.00%",
+                        "2014obesrate": "32.20%",
+                        "2013obesrate": "31.00%",
+                        "2012obesrate": "29.70%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Ohio",
+                        "2016obesrate": "31.50%",
+                        "2015obesrate": "29.80%",
+                        "2014obesrate": "32.60%",
+                        "2013obesrate": "30.40%",
+                        "2012obesrate": "30.10%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Oklahoma",
+                        "2016obesrate": "32.80%",
+                        "2015obesrate": "33.90%",
+                        "2014obesrate": "33.00%",
+                        "2013obesrate": "32.50%",
+                        "2012obesrate": "32.20%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Oregon ",
+                        "2016obesrate": "28.70%",
+                        "2015obesrate": "30.10%",
+                        "2014obesrate": "27.90%",
+                        "2013obesrate": "26.50%",
+                        "2012obesrate": "27.30%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Pennsylvania",
+                        "2016obesrate": "30.30%",
+                        "2015obesrate": "30.00%",
+                        "2014obesrate": "30.20%",
+                        "2013obesrate": "30.00%",
+                        "2012obesrate": "29.10%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Rhode Island",
+                        "2016obesrate": "26.60%",
+                        "2015obesrate": "26.00%",
+                        "2014obesrate": "27.00%",
+                        "2013obesrate": "27.30%",
+                        "2012obesrate": "25.70%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "South Carolina",
+                        "2016obesrate": "32.30%",
+                        "2015obesrate": "31.70%",
+                        "2014obesrate": "32.10%",
+                        "2013obesrate": "31.70%",
+                        "2012obesrate": "31.60%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "South Dakota",
+                        "2016obesrate": "29.60%",
+                        "2015obesrate": "30.40%",
+                        "2014obesrate": "29.80%",
+                        "2013obesrate": "29.90%",
+                        "2012obesrate": "28.10%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Tennessee",
+                        "2016obesrate": "34.80%",
+                        "2015obesrate": "33.80%",
+                        "2014obesrate": "31.20%",
+                        "2013obesrate": "33.70%",
+                        "2012obesrate": "31.10%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Texas",
+                        "2016obesrate": "33.70%",
+                        "2015obesrate": "32.40%",
+                        "2014obesrate": "31.90%",
+                        "2013obesrate": "30.90%",
+                        "2012obesrate": "29.20%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Utah",
+                        "2016obesrate": "25.40%",
+                        "2015obesrate": "24.50%",
+                        "2014obesrate": "25.70%",
+                        "2013obesrate": "24.10%",
+                        "2012obesrate": "24.30%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Vermont",
+                        "2016obesrate": "27.10%",
+                        "2015obesrate": "25.10%",
+                        "2014obesrate": "24.80%",
+                        "2013obesrate": "24.70%",
+                        "2012obesrate": "23.70%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Virginia",
+                        "2016obesrate": "29.00%",
+                        "2015obesrate": "29.20%",
+                        "2014obesrate": "28.50%",
+                        "2013obesrate": "27.20%",
+                        "2012obesrate": "27.40%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Washington",
+                        "2016obesrate": "28.60%",
+                        "2015obesrate": "26.40%",
+                        "2014obesrate": "27.30%",
+                        "2013obesrate": "27.20%",
+                        "2012obesrate": "26.80%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "West Virginia",
+                        "2016obesrate": "37.70%",
+                        "2015obesrate": "35.60%",
+                        "2014obesrate": "35.70%",
+                        "2013obesrate": "35.10%",
+                        "2012obesrate": "33.80%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Wisconsin",
+                        "2016obesrate": "30.70%",
+                        "2015obesrate": "30.70%",
+                        "2014obesrate": "31.20%",
+                        "2013obesrate": "29.80%",
+                        "2012obesrate": "29.70%"
+                    }
+                },
+                {
+                    "type": null,
+                    "properties": {
+                        "state": "Wyoming",
+                        "2016obesrate": "27.70%",
+                        "2015obesrate": "29.00%",
+                        "2014obesrate": "29.50%",
+                        "2013obesrate": "27.80%",
+                        "2012obesrate": "24.60%"
+                    }
+                }
+            ]
+        }
+    }
 }
