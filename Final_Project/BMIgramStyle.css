@@ -1,0 +1,24 @@
+
+  .choropleth {
+    width: 50%;
+    height: 40%;
+    align-items: left
+  }
+
+  .bar-chart {
+    width: 50%;
+    height: 100%;
+    align-items: right;
+  }
+
+  .cartogram {
+    width: 50%;
+    align-items: left;
+    height: 40%;
+  }
+
+  .timeline {
+    width: 50%;
+    height: 10%;
+    align-items: left;
+  }
