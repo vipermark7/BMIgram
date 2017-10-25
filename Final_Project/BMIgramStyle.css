@@ -1,24 +1,28 @@
 
-  .choropleth {
+  #choropleth {
     width: 50%;
     height: 40%;
-    align-items: left
+    align-items: left;
+    background-color: yellow;
   }
 
-  .bar-chart {
+  #bar-chart {
     width: 50%;
     height: 100%;
     align-items: right;
+    background-color: blue;
   }
 
-  .cartogram {
+  #cartogram {
     width: 50%;
     align-items: left;
     height: 40%;
+    background-color: red;
   }
 
-  .timeline {
+  #timeline {
     width: 50%;
     height: 10%;
     align-items: left;
+    background-color: green;
   }
