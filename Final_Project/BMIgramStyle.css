@@ -1,28 +1,36 @@
 
   #choropleth {
-    width: 50%;
     height: 40%;
-    align-items: left;
+    justify-content: left;
     background-color: yellow;
+    max-width: 
   }
 
-  #bar-chart {
-    width: 50%;
-    height: 100%;
-    align-items: right;
-    background-color: blue;
-  }
 
   #cartogram {
-    width: 50%;
-    align-items: left;
+    justify-content: left;
     height: 40%;
     background-color: red;
   }
 
   #timeline {
-    width: 50%;
-    height: 10%;
-    align-items: left;
+    height: 20%;
+    justify-content: left;
     background-color: green;
   }
+  
+  .container {
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  #bar-chart {
+    width: 50%;
+    height: 100%;
+    justify-content: right;
+    background-color: blue;
+  }
+
+
+  /* only bar-chart is not in the main div*/
