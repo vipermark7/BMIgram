@@ -3,15 +3,21 @@
 into two parts and contain all the divs that actually display information to the user,
 like bar-chart, cartogram, and chropleth */
 
+.wrapper {
+   display:flex;
+   flex-direction: row; 
+}
+
 .container-left {
-  flex-direction: row;
+  display:flex;
+  flex-direction: column;
   width: 50vh;
   float: left;
   flex: 1;
 }
   
  .container-right {
-  justify-content: center;
+  display:flex;
   flex-direction: column;
   width: 50vh;
   float: right;
@@ -28,12 +34,12 @@ like bar-chart, cartogram, and chropleth */
 }
 
 #timeline {
-  height: 5vh;
+  height: 10vh;
   background-color: greenyellow;
 }
 
 #bar-chart {
   background-color: steelblue;
-  float: right; 
   width: 50vh;
+  height: 100vh; 
 }
