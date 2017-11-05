@@ -1,36 +1,39 @@
 
-  #choropleth {
-    height: 40%;
-    justify-content: left;
-    background-color: yellow;
-    max-width: 
-  }
+/* container-left and container-right are the div classes that split the screen
+into two parts and contain all the divs that actually display information to the user,
+like bar-chart, cartogram, and chropleth */
 
-
-  #cartogram {
-    justify-content: left;
-    height: 40%;
-    background-color: red;
-  }
-
-  #timeline {
-    height: 20%;
-    justify-content: left;
-    background-color: green;
-  }
+.container-left {
+  flex-direction: row;
+  width: 50vh;
+  float: left;
+  flex: 1;
+}
   
-  .container {
-    display:flex;
-    flex-direction: column;
-    width: 50%;
-  }
+ .container-right {
+  justify-content: center;
+  flex-direction: column;
+  width: 50vh;
+  float: right;
+}
 
-  #bar-chart {
-    width: 50%;
-    height: 100%;
-    justify-content: right;
-    background-color: blue;
-  }
+#choropleth {
+  height: 45vh;
+  background-color: yellow;
+}
 
+#cartogram {
+  height: 45vh;
+  background-color: darkgoldenrod;
+}
 
-  /* only bar-chart is not in the main div*/
+#timeline {
+  height: 5vh;
+  background-color: greenyellow;
+}
+
+#bar-chart {
+  background-color: steelblue;
+  float: right; 
+  width: 50vh;
+}
