@@ -1,18 +1,3 @@
-path:hover {
-	fill-opacity: .7;
-}
-       
-/* Legend Font Style */
-body {
-	font: 11px sans-serif;
-}
-        
-/* Legend Position Style */
-.legend {
-	position:absolute;
-	left:800px;
-	top:350px;
-}
 .map {
   height: 40vh;  
 }
