@@ -8,22 +8,142 @@
       <link rel="stylesheet" href="TimeseriesStyle.css">
       <script src = "BMIgram.js"></script>
       <script src="http://d3js.org/d3.v3.min.js"></script>
-      <script>
-      var svg = d3.select("body").append("svg")
-        .attr("width", 960)
-        .attr("height", 500);
-      svg.append("foreignObject")
-          .attr("width", 480)
-          .attr("height", 500)
-       .append("xhtml:body")
-        .style("font", "14px 'Helvetica Neue'")
-        .html("<h1>An HTML Foreign Object in SVG</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu enim quam. Quisque nisi risus, sagittis quis tempor nec, aliquam eget neque. Nulla bibendum semper lorem non ullamcorper. Nulla non ligula lorem. Praesent porttitor, tellus nec suscipit aliquam, enim elit posuere lorem, at laoreet enim ligula sed tortor. Ut sodales, urna a aliquam semper, nibh diam gravida sapien, sit amet fermentum purus lacus eget massa. Donec ac arcu vel magna consequat pretium et vel ligula. Donec sit amet erat elit. Vivamus eu metus eget est hendrerit rutrum. Curabitur vitae orci et leo interdum egestas ut sit amet dui. In varius enim ut sem posuere in tristique metus ultrices.<p>Integer mollis massa at orci porta vestibulum. Pellentesque dignissim turpis ut tortor ultricies condimentum et quis nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod lorem vulputate dui pharetra luctus. Sed vulputate, nunc quis porttitor scelerisque, dui est varius ipsum, eu blandit mauris nibh pellentesque tortor. Vivamus ultricies ante eget ipsum pulvinar ac tempor turpis mollis. Morbi tortor orci, euismod vel sagittis ac, lobortis nec est. Quisque euismod venenatis felis at dapibus. Vestibulum dignissim nulla ut nisi tristique porttitor. Proin et nunc id arcu cursus dapibus non quis libero. Nunc ligula mi, bibendum non mattis nec, luctus id neque. Suspendisse ut eros lacus. Praesent eget lacus eget risus congue vestibulum. Morbi tincidunt pulvinar lacus sed faucibus. Phasellus sed vestibulum sapien.");
-      </script>
+      <style type="text/css">
+path:hover {
+	fill-opacity: .7;
+}
+       
+body {
+	font: 11px sans-serif;
+}
+        
+
+.legend {
+	position:absolute;
+	left:800px;
+	top:350px;
+}
+
+</style>
     </head>
     <body>
       <h1>BMIgram</h1>
       <h3>Adult Obesity Rate in the United States</h3>  
-      <div id = "map"></div>
+      <div id = "map">
+      <script type="text/javascript">
+
+var width = 960;
+var height = 500;
+
+// D3 Projection
+var projection = d3.geo.albersUsa()
+				   .translate([width/2, height/2])    // translate to center of screen
+				   .scale([1000]);          // scale things down so see entire US
+        
+// Define path generator
+var path = d3.geo.path()               // path generator that will convert GeoJSON to SVG paths
+		  	 .projection(projection);  // tell path generator to use albersUsa projection
+
+
+// Define linear scale for output
+var color = d3.scale.linear()
+			  .range(["rgb(255,255,178)","rgb(254,204,92)","rgb(253,141,60)","rgb(227,26,28)"]);
+
+var legendText = ["32-38", "28-32", "22-28","0-22"];
+
+//Create SVG element and append map to the SVG
+var svg = d3.select("body")
+			.append("svg")
+			.attr("width", width)
+			.attr("height", height);
+        
+// Append Div for tooltip to SVG
+var div = d3.select("body")
+		    .append("div")   
+    		.attr("class", "tooltip")               
+    		.style("opacity", 0);
+
+// Load in my states data!
+d3.csv("finalprojectTable_FinalA.csv", function(data) {
+color.domain([22,28,32,38]); // setting the range of the input data
+
+// Load GeoJSON data and merge with states data
+d3.json("us-states.json", function(json) {
+
+// Loop through each state data value in the .csv file
+
+for (var i = 0; i < data.length; i++) {
+	
+	// Grab State Name
+	var dataState = data[i].state;
+
+	// Grab data value 
+	var dataValue = data[i].obesrate2016;
+
+	// Find the corresponding state inside the GeoJSON
+	for (var j = 0; j < json.features.length; j++)  {
+		var jsonState = json.features[j].properties.name;
+
+		if (dataState == jsonState) {
+
+		// Copy the data value into the JSONs
+		json.features[j].properties.obesrate2016 = dataValue; 
+
+		// Stop looking through the JSON
+		break;
+		}
+	}
+}
+		
+// Bind the data to the SVG and create one path per GeoJSON feature
+svg.selectAll("path")
+	.data(json.features)
+	.enter()
+	.append("path")
+	.attr("d", path)
+	.style("stroke", "#fff")
+	.style("stroke-width", "1")
+	.style("fill", function(d) {
+
+	// Get data value
+	var value = d.properties.obesrate2016;
+	
+	if (value) {
+	//If value exists…
+	return color(value);
+	} else {
+	//If value is undefined…
+	return "rgb(213,222,217)";
+	}
+});
+        
+// Modified Legend Code from Mike Bostock: http://bl.ocks.org/mbostock/3888852
+var legend = d3.select("body").append("svg")
+      			.attr("class", "legend")
+     			.attr("width", 140)
+    			.attr("height", 200)
+   				.selectAll("g")
+   				.data(color.domain().slice().reverse())
+   				.enter()
+   				.append("g")
+     			.attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+  	legend.append("rect")
+   		  .attr("width", 18)
+   		  .attr("height", 18)
+   		  .style("fill", color);
+
+  	legend.append("text")
+  		  .data(legendText)
+      	  .attr("x", 24)
+      	  .attr("y", 9)
+      	  .attr("dy", ".35em")
+      	  .text(function(d) { return d; });
+	});
+
+});
+</script>
+      </div>
       <div id = "timeslider"></div>
       <div id = "linechart"></div>
       <p>
