@@ -1,45 +1,9 @@
-
-/* container-left and container-right are the div classes that split the screen
-into two parts and contain all the divs that actually display information to the user,
-like bar-chart, cartogram, and chropleth */
-
-.wrapper {
-   display:flex;
-   flex-direction: row; 
+.map {
+  height: 40vh;  
 }
-
-.container-left {
-  display:flex;
-  flex-direction: column;
-  width: 50vh;
-  float: left;
-  flex: 1;
+.timeslider {
+  height: 20vh;
 }
-  
- .container-right {
-  display:flex;
-  flex-direction: column;
-  width: 50vh;
-  float: right;
-}
-
-#choropleth {
-  height: 45vh;
-  background-color: yellow;
-}
-
-#cartogram {
-  height: 45vh;
-  background-color: darkgoldenrod;
-}
-
-#timeline {
-  height: 10vh;
-  background-color: greenyellow;
-}
-
-#bar-chart {
-  background-color: steelblue;
-  width: 50vh;
-  height: 100vh; 
+.timeline {
+  height:40vh;
 }
