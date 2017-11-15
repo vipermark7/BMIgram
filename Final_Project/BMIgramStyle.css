@@ -7,3 +7,36 @@
 .timeline {
   height:40vh;
 }
+.map {
+  height: 40vh;  
+}
+
+path:hover {
+  fill-opacity: .5;
+  border-style: dotted;
+}
+
+body {
+  font: 11px sans-serif;
+}
+
+.legend {
+  position: absolute;
+  left: 850px;
+  top: 450px;
+}
+
+div.tooltip {   
+  position: absolute;           
+  text-align: left;           
+  width: 130px;                  
+  height: 40px;                 
+  padding: 8px;             
+  font: 12px sans-serif;        
+  background: lightgray;   
+  border: 1px;      
+  border-radius: 0px;             
+  pointer-events: none;    
+  font-family: "Century Gothic", "Helvectica", Arial, sans-serif; 
+
+}
