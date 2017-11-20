@@ -1,5 +1,6 @@
-body {
-  font: 14px sans-serif;
+
+#timeseries {
+  height: 40vh;
 }
 
 .axis path,
