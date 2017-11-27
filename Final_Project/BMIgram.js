@@ -1,12 +1,11 @@
 'use strict'
 
-//window.onload = function () {
-	//var map = document.getElementById('map');
+// window.onload = function () {
+// 	map("map");
+// 	}
 
-function setUpmyMap(){
-	var map = document.getElementById('map');
-
-	var width = 960;
+function renderMyBMIgram() {
+	var width = 760;
 	var height = 500;
 
 
@@ -24,7 +23,7 @@ function setUpmyMap(){
 	var color = d3.scale.linear()
 		.range(["rgb(255, 245, 210)", "rgb(253, 211, 196)", "rgb(243, 167, 150)", "rgb(224, 76, 70)", "rgb(144, 42, 34)"]);
 
-	var legendText = ["≥ 32%", "24 to 32%", "16 to 24%", "8 to 16%", "≤ 8%"];
+
 
 
 	//Create SVG element and append map to the SVG
@@ -39,6 +38,7 @@ function setUpmyMap(){
 		.attr("class", "tooltip")
 		.style("opacity", 0);
 
+	
 
 
 	// Load in my states data!
@@ -72,6 +72,34 @@ function setUpmyMap(){
 					}
 				}
 			}
+
+			var legendText = ["≥ 32%", "24 to 32%", "16 to 24%", "8 to 16%", "≤ 8%"];
+			
+				// Modified Legend Code from Mike Bostock: http://bl.ocks.org/mbostock/3888852
+				var legend = d3.select("body").append("svg")
+					.attr("class", "legend")
+					.attr("width", 140)
+					.attr("height", 200)
+					.selectAll("g")
+					.data(color.domain().slice().reverse())
+					.enter()
+					.append("g")
+					.attr("transform", function (d, i) { return "translate(0," + i * 20 + ")"; });
+			
+				legend.append("rect")
+					.attr("width", 18)
+					.attr("height", 18)
+					.style("fill", color);
+			
+				legend.append("symbol")
+					.attr("title", "ddd");
+			
+				legend.append("text")
+					.data(legendText)
+					.attr("x", 24)
+					.attr("y", 9)
+					.attr("dy", ".35em")
+					.text(function (d) { return d; });
 
 			// Bind the data to the SVG and create one path per GeoJSON feature
 			svg.selectAll("path")
@@ -112,36 +140,6 @@ function setUpmyMap(){
 				});
 
 
-
-			// Modified Legend Code from Mike Bostock: http://bl.ocks.org/mbostock/3888852
-			var legend = d3.select("body").append("svg")
-				.attr("class", "legend")
-				.attr("width", 140)
-				.attr("height", 200)
-				.selectAll("g")
-				.data(color.domain().slice().reverse())
-				.enter()
-				.append("g")
-				.attr("transform", function (d, i) { return "translate(0," + i * 20 + ")"; });
-
-			legend.append("rect")
-				.attr("width", 18)
-				.attr("height", 18)
-				.style("fill", color);
-
-			legend.append("symbol")
-				.attr("title", "ddd");
-
-			legend.append("text")
-				.data(legendText)
-				.attr("x", 24)
-				.attr("y", 9)
-				.attr("dy", ".35em")
-				.text(function (d) { return d; });
 		});
 	});
-}
-
-window.onload = function () {
- setUpmyMap();
 };
