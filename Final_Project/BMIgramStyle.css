@@ -9,6 +9,8 @@ body {
 
 #map {
   height: 40vh;  
+  width: 960;
+	height: 500;
 }
 
 .legend {
