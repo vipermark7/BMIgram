@@ -1,7 +1,11 @@
 "use strict"
 window.onload = function () {
+    renderMyBMIgram();
+    
     timeseries();
+    
 }
+
 function timeseries() {
     //I increased the bottom margin a little bit because the x label is tied to it; so I could lower the x label a little bit
     var margin = { top: 100, right: 20, bottom: 60, left: 90 },
@@ -215,10 +219,10 @@ function timeseries() {
     d3.csv("Obese.csv", function (error, data) {
         data.forEach(function (d) {
             d.date = parseDate.parse(d.year);
-            console.log(d.date);
+            // console.log(d.date);
 
             d.Arizona = +d.Arizona
-            console.log(d.Arizona)
+            // console.log(d.Arizona)
         });
 
         //using imported data to define extent of x and y domains
@@ -431,7 +435,7 @@ function timeseries() {
 
         svg.selectAll("path")
             .on('mouseover', function (d, i) {
-                console.log("mouseover on", this);
+               // console.log("mouseover on", this);
                 d3.select(this)
                     .transition()
                     .duration(100)
@@ -440,7 +444,7 @@ function timeseries() {
             })
 
             .on('mouseout', function (d, i) {
-                console.log("mouseout", this);
+                // console.log("mouseout", this);
                 d3.select(this)
                     .transition()
                     .duration(100)
